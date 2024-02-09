@@ -42768,17 +42768,18 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: linear-gradient(#1a1a1a, black);
+  background-image: none;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 129px;
+  min-height: 77px;
+  margin: 0 auto;
 }
 
 .u-header .u-image-1 {
-  width: 93px;
-  height: 93px;
-  margin: 18px auto 0;
+  width: 90px;
+  height: 90px;
+  margin: 20px auto 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -42787,89 +42788,76 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -82px -14px 0 auto;
+  margin: -33px auto 0 0;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1rem;
-}
-
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.125rem;
   font-family: Amita;
 }
 
-.u-header .u-search-1 {
-  width: 254px;
-  min-height: 46px;
-  height: auto;
-  --radius: 10px;
-  margin: -59px auto 42px 0;
+.u-header .u-nav-2 {
+  font-size: 1rem;
 }
 
-.u-header .u-search-icon-1 {
-  height: 16px;
+.u-header .u-social-icons-1 {
+  white-space: nowrap;
+  height: 25px;
+  min-height: 16px;
+  width: 95px;
+  min-width: 68px;
+  margin: -28px 0 20px auto;
+}
+
+.u-header .u-icon-3 {
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 93px;
-    height: 93px;
+    width: 90px;
+    height: 90px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -82px;
-    margin-right: -14px;
+    margin-top: -33px;
   }
 
-  .u-header .u-search-1 {
-    width: 236px;
+  .u-header .u-nav-2 {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-top: -34px;
   }
 }
-@media (max-width: 991px) {
-  .u-header .u-image-1 {
-    margin-top: 33px;
-  }
 
-  .u-header .u-menu-1 {
-    margin-top: -36px;
-  }
-
-  .u-header .u-search-1 {
-    width: 161px;
-  }
-}
 @media (max-width: 767px) {
-  .u-header .u-image-1 {
-    margin-top: 34px;
-  }
-
-  .u-header .u-menu-1 {
+  .u-header .u-social-icons-1 {
     margin-top: -36px;
-  }
-
-  .u-header .u-search-1 {
-    width: 178px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 198px;
+    min-height: 118px;
   }
 
-  .u-header .u-image-1 {
-    margin-left: 0;
-  }
-
-  .u-header .u-search-1 {
-    margin-top: 34px;
-    margin-right: initial;
-    margin-left: initial;
+  .u-header .u-menu-1 {
     width: auto;
+    margin-top: -37px;
+  }
+
+  .u-header .u-nav-2 {
+    font-family: Amita;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-top: -32px;
+    margin-right: -20px;
   }
 }
  .u-footer {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("images/three-guinea-pigs-are-sitting-rock_256339-3875.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('images/three-guinea-pigs-are-sitting-rock_256339-3875.png');
+  background-position: 50% 50%;
 }
 
 .u-footer .u-sheet-1 {
@@ -43005,7 +42993,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-social-icons-1 {
-    width: 99px;
+    width: 98px;
   }
 
   .u-footer .u-line-1 {
